@@ -9,11 +9,11 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mcproxy
 PKG_VERSION:=master
-PKG_RELEASE:=39eefadfdcfebeab879db0e7d97f354e1d7b202f
+PKG_RELEASE:=9628555dcda20946a5ae95127aef5f0f857842f1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/GrumpyOldTroll/mcproxy/archive/$(PKG_VERSION)/$(PKG_RELEASE).tar.gz
-PKG_MD5SUM:=5a53c4db42bfd2676f0e99342073625d
+PKG_MD5SUM:=94ad895cb5a3baa5a6f59a3601e042eb
 PKG_MAINTAINER:=Jake Holland <jholland@akamai.com>
 #PKG_MAINTAINER:=Steven Barth <cyrus@openwrt.org>
 PKG_LICENSE:=GPL-2.0+
